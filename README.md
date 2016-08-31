@@ -11,11 +11,32 @@ Just include `stringStats.js` in your project!
 ## Usage
 
 stringStats.js will accept input in the form of a string or an array. 
+
+**Basic structure**
+
+```javascript
+stringStats.function({parameters: test});
+```
+stringStats.js will return an object whose properties can be accessed
+
+```javascript
+var test = stringStats.function({parameters});
+alert(test.option);
+```
+
+**Examples**
+
 A basic use to find the modal character in a string may look something like this:
 
 ```javascript
 var result = stringStats.auto({input: “Test”, words: false});
 alert(result.mode);
+```
+Find least used item in string:
+
+```javascript
+var testArr = "abb;
+alert(stringStats.auto({input: testArr, words: false, caseUpper: true}).least;
 ```
 stringStats.js will accept parameters in the form of an object, and will return its result as an object.
 
