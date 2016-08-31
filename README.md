@@ -30,5 +30,7 @@ instances| input | Input passed to function | String or Array | Yes
          | check | Item to check against | String | Yes
          | caseUpper | Convert input to upper case if true or lower case if false. Optional. If not specified, input will stay as it is. Will only be used if input does not contain words | boolean | No
          | words | Should the input be treated as words | boolean | Yes
-specifiedNumber|
-patterns|
+specifiedNumber| input | Input passed to function | String or Array | Yes
+               | number | Number used to check for items which occur more times than number, fewer times or equal to the number | Integer | Yes
+patterns| input | Input passed to function | String or Array | Yes
+        | number | Size of patterns to check for | Integer | Yes
