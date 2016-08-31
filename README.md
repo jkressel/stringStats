@@ -15,7 +15,7 @@ stringStats.js will accept input in the form of a string or an array.
 **Basic structure**
 
 ```javascript
-stringStats.function({parameters: test});
+stringStats.function({parameters: test}).outputOption;
 ```
 stringStats.js will return an object whose properties can be accessed
 
