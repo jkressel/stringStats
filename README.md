@@ -40,11 +40,17 @@ patterns| input | Input passed to function | String or Array | Yes
 
 Function | Name | Description | Type 
 -------- | ---- | ----------- | ----
-auto     | mode | Most used item(s) | Array
-         | modeNumber | Modal number | Integer
-         | totalItems | Total number of items | Integer
-         | least | Least used item(s) | Array
-         | leastNumber | Least number | Integer
-instances|
-specifiedNumber|
-patterns|
+auto     | mode | Items appearing most often | Array
+         | modeNumber | Number of times modal items appear | Integer
+         | totalItems | Total number different of items | Integer
+         | least | Items appearing least | Array
+         | leastNumber | Number of times items appearing least appear | Integer
+instances| instances | Number of times the item to check appears | Integer
+specifiedNumber| lessThan | Items which appear fewer times than the number given | Array
+               | equal | Items which appear the same number of times as the number given | Array
+               | greaterThan | Items which appear more times than the number given | Array
+               | totalItems | Total number different of items | Integer
+patterns| mode | Items appearing most often | Array
+        | modeNumber | Number of times modal items appear | Integer
+        | least | Items appearing least | Array
+        | leastNumber | Number of times items appearing least appear | Integer
