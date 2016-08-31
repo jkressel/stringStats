@@ -25,7 +25,10 @@ Function | Parameters | Description | Type | Required
 -------- | ---------- | ----------- | ---- | --------
 auto     | input      | Input passed to function | String or Array | Yes
          |  words     | Should the input be treated as words | boolean | Yes
-         | caseUpper  |
-instances|
+         | caseUpper  | Convert input to upper case if true or lower case if false. Optional. If not specified, input will stay as it is. Will only be used if input does not contain words | boolean | No
+instances| input | Input passed to function | String or Array | Yes
+         | check | Item to check against | String | Yes
+         | caseUpper | Convert input to upper case if true or lower case if false. Optional. If not specified, input will stay as it is. Will only be used if input does not contain words | boolean | No
+         | words | Should the input be treated as words | boolean | Yes
 specifiedNumber|
 patterns|
