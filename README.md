@@ -54,3 +54,15 @@ patterns| mode | Items appearing most often | Array
         | modeNumber | Number of times modal items appear | Integer
         | least | Items appearing least | Array
         | leastNumber | Number of times items appearing least appear | Integer
+
+
+## Contributing
+
+Please feel free to fork and contribute to this project!
+
+## Credits
+
+Copyright © John Kressel
+
+## License
+stringStats.js is licensed under the [MIT](https://opensource.org/licenses/MIT) license
