@@ -34,3 +34,17 @@ specifiedNumber| input | Input passed to function | String or Array | Yes
                | number | Number used to check for items which occur more times than number, fewer times or equal to the number | Integer | Yes
 patterns| input | Input passed to function | String or Array | Yes
         | number | Size of patterns to check for | Integer | Yes
+        
+
+**Output**
+
+Function | Name | Description | Type 
+-------- | ---- | ----------- | ----
+auto     | mode | Most used item(s) | Array
+         | modeNumber | Modal number | Integer
+         | totalItems | Total number of items | Integer
+         | least | Least used item(s) | Array
+         | leastNumber | Least number | Integer
+instances|
+specifiedNumber|
+patterns|
