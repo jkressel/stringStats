@@ -38,8 +38,14 @@ var stringStats = {
 	var least = [];
 	 
 	
-	typeof params.input !== 'string' ? arr = params.input : null; //If input is array, set array equal to input
+	
 
+	if (typeof params.input !== 'string'){ //If input is array, set array equal to input
+
+		arr = params.input;
+
+	}
+	else{
 	// If words parameter is false, treat as characters otherwise, treat as characters and split along spaces 
 	if (params.words === false){
 		var tempStr = params.input.replace(/\s+/g, '');
@@ -50,7 +56,7 @@ var stringStats = {
 	 	tempStr = tempStr.replace(/[.,\/#!$%\^&\*;:{}+£=\-_`~()]/g,"")
 		arr = tempStr.split(" ");
 	 }
-
+	}
 	 // Check case parameter. Set the case of the array accordingly
 	if ((params.caseUpper === true)&&(typeof params.caseUpper !== 'undefined')){
 		arr = arr.map(function(x){ return x.toUpperCase() });
@@ -156,7 +162,7 @@ return modeObj = {
 		if (typeof params.input !== "string"){
 			arr = params.input;
 
-		}
+		}else{
 		// Determine type of input to work with. This parameter is not an option and is therefore, a requirement.
 		if (params.words === false){
 
@@ -178,7 +184,7 @@ return modeObj = {
 			arr = tempStr.split(" ");
 
 	 	}
-
+	 }
 	 	arr.sort(); // Groups like terms together so that the loop can cycle through more easily
 
 	 	// Stop if not checkable 
