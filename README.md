@@ -83,7 +83,7 @@ Please feel free to fork and contribute to this project!
 
 ## Credits
 
-Copyright © John Kressel
+Copyright © 2016 John Kressel
 
 ## License
 stringStats.js is licensed under the [MIT](https://opensource.org/licenses/MIT) license
