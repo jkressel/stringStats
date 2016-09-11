@@ -155,6 +155,7 @@ return modeObj = {
 		var modeObj = new Object();
 		var charCount = 0;
 		var params = arguments[0];
+		
 
 		// Check input to check against exists
 		var charToCheck = (typeof params.check !== 'undefined')? params.check : null;
