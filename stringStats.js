@@ -153,7 +153,7 @@ return modeObj = {
 	instances: function(){
 		var arr = new Array();
 		var modeObj = new Object();
-		var charCount = 0
+		var charCount = 0;
 		var params = arguments[0];
 
 		// Check input to check against exists
