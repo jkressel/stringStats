@@ -155,7 +155,7 @@ return modeObj = {
 		var modeObj = new Object();
 		var charCount = 0;
 		var params = arguments[0];
-		
+
 
 		// Check input to check against exists
 		var charToCheck = (typeof params.check !== 'undefined')? params.check : null;
@@ -327,6 +327,7 @@ return modeObj = {
 		var init;
 		var patternLength;
 		var least = [];
+		
 	 
 	// End if input number is not provided, or is not greater than 1
 	if (! params.number > 1){
